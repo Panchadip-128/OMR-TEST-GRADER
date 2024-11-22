@@ -21,7 +21,7 @@ Contour Detection: Find the contours of the OMR form, ensuring to process the ar
 Bubble/Mark Detection:
 Grid Division: Divide the detected region of interest (ROI) into sections corresponding to the answer options (i.e., the grid where bubbles are located).
 Mark Identification: For each section, check whether a bubble is filled. This can be done by counting the number of black pixels in each bubble region and setting a threshold to decide if a bubble is marked (e.g., more than 60% of the area is filled). -Handling Multiple Marks: If the user marks more than one option for a question, it can be marked as incorrect based on predefined rules.
-Answer Key Comparison: Once the marked bubbles are detected, compare the selected answers with the correct answer key stored in the system. The given code reads the answer key from a CSV file using the pandas library. Each correct answer receives a point, and wrong or multiple answers get no points.
+Answer Key Comparison Result: Once the marked bubbles are detected, compare the selected answers with the correct answer key stored in the system. The given code reads the answer key from a CSV file using the pandas library. Each correct answer receives a point, and wrong or multiple answers get no points.
 
 ## Grading and Output:
 
@@ -46,4 +46,4 @@ Question,Answer
 4,D
 5,E
 
-Run cells of notebook
+Run cells of notebook 
