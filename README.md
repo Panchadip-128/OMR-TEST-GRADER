@@ -1,7 +1,7 @@
-# OMR-TEST-GRADER
+# OMR-TEST-GRADER:
 OMR (Optical Mark Recognition) is a technique used to capture human-marked data from documents like multiple-choice exams, surveys, and ballots.
 
-## Introduction
+## Introduction:
 OMR (Optical Mark Recognition) is a technique used to capture human-marked data from documents like multiple-choice exams, surveys, and ballots. An OMR scanner identifies marks made by users (typically filled bubbles or boxes) on a printed form, and then processes that data. This project aims to build an OMR scanner and grader that can read and grade multiple-choice test forms including handling of multiple marked bubbles , Non-filled bubbles, Visualization of correct and incorrect answers and displaying the percentage of correct answers at the bottom of the OMR sheet. It also includes reading the answer key from a CSV file, easier to input large answer keys.
 
 ## Methodology
